@@ -1,5 +1,8 @@
 {
-"scripts": {
-    "mock:api": "json-server --watch api/db.json --port 4000"
+    "scripts": {
+        "mock:api": "json-server --watch api/db.json --port 4000"
+    },
+    "dependencies": {
+        "faker": "^4.1.0"
     }
 }
